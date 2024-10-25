@@ -1,0 +1,6 @@
+print("lionel messi")
+print("neymar junior")
+print("cristiano ronaldo")
+print("alexis sanchez")
+print("dani alves")
+print("sergio ramos")
