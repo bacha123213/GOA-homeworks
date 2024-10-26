@@ -52,14 +52,13 @@ print("variable")
 print("Hello World")
 print("This is an indented line")
 print("undeclared_variable")
-class = 5
-print("class")
+
 print("Hello World")
 x = 10
 y = 5
 print(x + y)
 def my_function():
-print("Missing indentation in function")
+   print("Missing indentation in function")
 var = 10
 print(var)
 a, b = 10
@@ -72,6 +71,6 @@ print(True)
 #This is a comment
 
 print("No colon in if statement")
- add(a, b): a + b
+add=(a, b) 
 
 print("Empty statement after variable declaration")
