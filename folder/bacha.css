@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+    justify-content: center;
+}
+.box{
+    width: 150px;
+    height: 150px;
+    font-size: 4em;
+    text-align: center;
+    align-items: center;
+}
+#box1{
+    background-color: aqua;
+    border-radius: 15px;
+}
+#box2{
+    background-color: gray;
+    border-radius: 15px;
+}
+#box3{
+    background-color: blueviolet;
+    border-radius: 15px;
+}
+#box4{
+    background-color: cadetblue;
+    border-radius: 15px;
+}
