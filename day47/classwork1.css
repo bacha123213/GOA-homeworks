@@ -1,0 +1,10 @@
+
+        .rounded-div {
+            width: 1000px;
+            height: 500px;
+            background-image: url(); 
+            background-size: cover; 
+            background-position: center; 
+            border: 5px solid black; 
+            border-radius: 20px; 
+        }
