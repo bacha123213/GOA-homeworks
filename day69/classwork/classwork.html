@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8">
+  <title>საკლასო დავალება</title>
+</head>
+<body>
+  <h1>ჩატვირთვისას რიცხვების დაბეჭდვა</h1>
+
+  <script>
+    function userLoop() {
+      // მომხმარებელს შემოატანინეთ ორი რიცხვი
+      let num1 = Number(prompt("შეიყვანეთ პირველი რიცხვი:"));
+      let num2 = Number(prompt("შეიყვანეთ მეორე რიცხვი:"));
+
+      // დაბეჭდეთ პირველი რიცხვიდან მეორემდე ყველა რიცხვი
+      for (let i = num1; i <= num2; i++) {
+        console.log(i);
+      }
+    }
+
+    // ვებსაიტის ჩატვირთვისას ფუნქციის გაშვება
+    window.onload = function() {
+      userLoop();
+    };
+  </script>
+</body>
+</html>

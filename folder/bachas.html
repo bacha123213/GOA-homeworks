@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>StreetKickz Shoe Store</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      background: #f5f5f5;
+      color: #333;
+    }
+
+    header {
+      text-align: center;
+      padding: 40px 20px;
+      background: #000;
+      color: #fff;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    header p {
+      font-size: 1.1em;
+      margin-top: 10px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 30px;
+      padding: 40px;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      text-align: center;
+      padding: 20px;
+      transition: transform 0.2s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: contain;
+    }
+
+    .card h2 {
+      margin: 15px 0 10px;
+      font-size: 1.2em;
+    }
+
+    .card p {
+      color: #666;
+      font-size: 1em;
+      margin-bottom: 15px;
+    }
+
+    .card button {
+      background: black;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+      border-radius: 5px;
+      transition: background 0.3s;
+    }
+
+    .card button:hover {
+      background: #333;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #eee;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>StreetKickz</h1>
+    <p>Fresh sneakers. Fresh style.</p>
+  </header>
+
+  <main class="grid">
+    <!-- Shoe 1 -->
+    <div class="card">
+      <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/35cb50b7-5e6f-4b2c-aad5-91dd7e62e2b2/dunk-low-retro-mens-shoes-5FQWGR.png" alt="Nike Dunk Low Retro">
+      <h2>Nike Dunk Low Retro</h2>
+      <p>$115</p>
+      <button>Add to Cart</button>
+    </div>
+
+    <!-- Shoe 2 -->
+    <div class="card">
+      <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/357fd71f-c245-41e3-a59f-4e0ef11f8f96/air-max-90-mens-shoes-KvLs3z.png" alt="Nike Air Max 90">
+      <h2>Nike Air Max 90</h2>
+      <p>$130</p>
+      <button>Add to Cart</button>
+    </div>
+
+    <!-- Shoe 3 -->
+    <div class="card">
+      <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/b36f4b88-fb9a-4b73-b9c2-5d6a02dca6f7/air-force-1-07-mens-shoes-6n3vKB.png" alt="Nike Air Force 1 '07">
+      <h2>Nike Air Force 1 '07</h2>
+      <p>$110</p>
+      <button>Add to Cart</button>
+    </div>
+
+    <!-- Add more shoes below by duplicating this block -->
+  </main>
+
+  <footer>
+    <p>&copy; 2025 StreetKickz. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
+
+

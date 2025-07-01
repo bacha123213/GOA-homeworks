@@ -1,27 +1,71 @@
 .container{
     display: flex;
-    justify-content: center;
+    justify-content: end;
 }
 .box{
-    width: 150px;
-    height: 150px;
+    width: 70px;
+    height: 70px;
     font-size: 4em;
     text-align: center;
     align-items: center;
 }
 #box1{
-    background-color: aqua;
+    background-color: #EED3B1;
     border-radius: 15px;
+    text-align:left;
+    flex-grow: 100
+    ;
+    
 }
-#box2{
-    background-color: gray;
-    border-radius: 15px;
+#body1{
+    background-color: #E8ECD7;
+    color:white;
 }
-#box3{
-    background-color: blueviolet;
-    border-radius: 15px;
+.image1{
+    box-shadow: 5px 5px 7px black;
+    border: solid white;
+    border-radius: 20px;
+    width: 250px;
+    margin: 20px;
+    overflow: hidden;
 }
-#box4{
-    background-color: cadetblue;
-    border-radius: 15px;
+.image2{
+    box-shadow: 5px 5px 7px black;
+    border: solid white;
+    border-radius: 20px;
+    width: 250px;
+    margin: 20px;
+    overflow: hidden;
+}
+.image3{
+    box-shadow: 5px 5px 7px black;
+    border: solid white;
+    border-radius: 20px;
+    width: 250px;
+    margin: 20px;
+    overflow: hidden;
+}
+.image4{
+    box-shadow: 5px 5px 7px black;
+    border: solid white;
+    border-radius: 20px;
+    width: 250px;
+    margin: 20px;
+    overflow: hidden;
+}
+.image5{
+    box-shadow: 5px 5px 7px black;
+    border: solid white;
+    border-radius: 20px;
+    width: 250px;
+    margin: 20px;
+    overflow: hidden;
+}
+.image6{
+    box-shadow: 5px 5px 7px black;
+    border: solid white;
+    border-radius: 20px;
+    width: 250px;
+    margin: 20px;
+    overflow: hidden;
 }

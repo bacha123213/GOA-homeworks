@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Button Adder</title>
+</head>
+<body>
+
+  <div id="myDiv"></div>
+
+  <script>
+    function addNewElement() {
+      let div = document.getElementById("myDiv");
+      let button = document.createElement("button");
+      let text = document.createTextNode("Click Me");
+      button.appendChild(text);
+      div.appendChild(button);
+    }
+
+    addNewElement();
+  </script>
+
+</body>
+</html>

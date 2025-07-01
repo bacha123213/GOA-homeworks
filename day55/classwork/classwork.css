@@ -1,0 +1,23 @@
+#div1{
+    width: 100px;
+    height: 100px;
+    background-color: teal;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-duration: 5s;
+    animation-name: div;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+
+@keyframes div {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(300px);
+    }
+}

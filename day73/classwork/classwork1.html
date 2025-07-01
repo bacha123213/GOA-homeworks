@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Replace Paragraph</title>
+</head>
+<body>
+
+  <div id="content">
+    <p>This is a paragraph.</p>
+    <button>Remove Me</button>
+  </div>
+
+  <script>
+    function updateContent() {
+      let div = document.getElementById("content");
+      let button = div.querySelector("button");
+      div.removeChild(button);
+
+      let paragraph = div.querySelector("p");
+      let italic = document.createElement("i");
+      italic.textContent = "This is italic text.";
+      div.replaceChild(italic, paragraph);
+    }
+
+    window.onload = updateContent;
+  </script>
+
+</body>
+</html>
